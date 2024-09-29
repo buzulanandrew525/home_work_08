@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grouping {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.grouping__right {
+    border: 1px solid black;
+}
+
+.left {
+    display: flex;
+    border: 1px solid black;
+}
+
+.right {
+    display: flex;
+    border: 1px solid black;
+}
+
+.container--special {
+    display: flex;
+    justify-content: flex-end;
+}
+.grouping__right--special,
+.special {
+    border: 1px solid black;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+}
+

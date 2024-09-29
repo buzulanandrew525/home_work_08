@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="block left">Лівий блок</div>
+        <div class="block right">Правий блок</div>
+    </div>
+
+    <div class="container">
+        <div class="block left">Лівий блок</div>
+        <div class="block grouping">
+            <div class="block grouping__right">Правий блок</div>
+            <div class="block grouping__right">Правий блок</div>
+            <div class="block grouping__right">Правий блок</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="block grouping">
+            <div class="block grouping__right">Лівий блок</div>
+            <div class="block grouping__right">Лівий блок</div>
+        </div>
+        <div class="block grouping">
+            <div class="block grouping__right">Правий блок</div>
+            <div class="block grouping__right">Правий блок</div>
+        </div>
+    </div>
+
+    <div class="container--special">
+        <div class="special">
+            <div class="block special__right">Правий блок</div>
+            <div class="block special__right"></div>
+        </div>
+        <div class="block grouping--special">
+            <div class="block grouping__right--special">Правий блок</div>
+            <div class="block grouping__right--special">Правий блок</div>
+        </div>
+    </div>
+
+    <div class="end">
+        <div class="special">
+            <div class="block special__right">Правий блок</div>
+            <div class="block special__right"></div>
+        </div>
+        <div class="block grouping--special">
+            <div class="block grouping__right--special">Правий блок</div>
+            <div class="block grouping__right--special">Правий блок</div>
+        </div>
+    </div>
+</body>
+</html>

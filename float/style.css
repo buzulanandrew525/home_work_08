@@ -1,0 +1,51 @@
+/* 1 */
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+.block {
+    width: 150px;
+    margin: 10px; 
+    background-color: #ddd;
+    border: 1px solid #333;
+    text-align: center;
+}
+  
+.left {
+    float: left;
+  }
+  
+.right {
+    float: right;
+}
+.right__two--special,
+.right--special {
+    padding: 15px;
+    float: right;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+}
+.grouping_two,
+.grouping {   
+    float: right;
+    background-color: #ddd;
+    text-align: center;
+}
+.grouping_two__block,
+.grouping__block {
+    width: 150px;
+    margin: 10px; 
+    border: 1px solid #333;
+}
+.grouping_two{
+    margin-right: 755px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
