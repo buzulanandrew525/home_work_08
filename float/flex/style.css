@@ -37,3 +37,14 @@
     justify-content: center;
 }
 
+.grouping__right,
+.left,
+.right,
+.grouping__right--special {
+    padding: 5px;
+}
+
+
+.special__right {
+    padding: 10px;
+}
